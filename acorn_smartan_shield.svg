@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Acorn Smartan - Shield Bash State -->
+  <g>
+    <!-- Helmet -->
+    <path d="M50 50 C50 30, 150 30, 150 50 L140 90 C140 100, 60 100, 60 90 Z" fill="#455A64" stroke="#263238" stroke-width="3"/>
+    <path d="M60 50 C60 35, 140 35, 140 50 L130 85 C130 95, 70 95, 70 85 Z" fill="#607D8B" stroke="none"/>
+    
+    <!-- Face -->
+    <circle cx="100" cy="110" r="40" fill="#FFCDD2" stroke="#3E2723" stroke-width="3"/>
+    
+    <!-- Eyes -->
+    <path d="M80 100 L95 105 L80 110 Z" fill="#FFF9C4" stroke="#3E2723" stroke-width="2"/>
+    <path d="M120 100 L105 105 L120 110 Z" fill="#FFF9C4" stroke="#3E2723" stroke-width="2"/>
+    
+    <!-- Mouth -->
+    <path d="M85 125 L115 125 L115 130 L85 130 Z" fill="#FFFFFF" stroke="#3E2723" stroke-width="2"/>
+    
+    <!-- Shield (Larger for shield bash) -->
+    <circle cx="140" cy="120" r="30" fill="#8D6E63" stroke="#3E2723" stroke-width="3"/>
+    <circle cx="140" cy="120" r="25" fill="#A1887F" stroke="#3E2723" stroke-width="1"/>
+    <path d="M125 105 C140 100, 155 105, 170 120 C155 135, 140 140, 125 135 Z" fill="#6D4C41" stroke="none"/>
+    <path d="M125 135 C140 140, 155 135, 170 120 C155 105, 140 100, 125 105 Z" fill="#6D4C41" stroke="none"/>
+    
+    <!-- Spear -->
+    <line x1="30" y1="120" x2="110" y2="120" stroke="#6D4C41" stroke-width="5"/>
+    <path d="M30 110 L10 120 L30 130 Z" fill="#A1887F" stroke="#3E2723" stroke-width="2"/>
+    
+    <!-- Shield Bash Effect -->
+    <path d="M170 110 L180 120 L170 130" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-dasharray="3,2"/>
+    <path d="M175 110 L185 120 L175 130" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-dasharray="3,2"/>
+  </g>
+</svg>

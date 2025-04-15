@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Plants vs Zombies Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Home Screen -->
+    <div id="home-screen" class="screen active">
+        <h1>Plants vs Zombies Clone</h1>
+        <div class="menu-buttons">
+            <button id="start-game-btn">Start Game</button>
+            <button id="shop-btn">Shop</button>
+        </div>
+    </div>
+
+    <!-- Shop Screen -->
+    <div id="shop-screen" class="screen">
+        <h1>Plant Shop</h1>
+        <div class="shop-items">
+            <div class="shop-item" data-plant="super_peashooter" data-cost="200">
+                <img src="images/super_peashooter.svg" alt="Super Peashooter">
+                <div class="shop-item-info">
+                    <h3>Super Peashooter</h3>
+                    <p>Shoots peas at 2x damage and speed</p>
+                    <p class="cost">Cost: 200 sun</p>
+                </div>
+                <button class="buy-btn" data-plant="super_peashooter">Buy</button>
+            </div>
+        </div>
+        <button id="back-to-home-btn">Back</button>
+    </div>
+
+    <!-- Game Screen -->
+    <div id="game-container" class="screen">
+        <canvas id="gameCanvas"></canvas>
+        <div id="plants-container"></div>
+        <div id="plant-selector">
+            <div class="plant-card" data-plant="sunflower">Sunflower</div>
+            <div class="plant-card" data-plant="peashooter">Peashooter</div>
+        </div>
+        <div id="sun-counter">Sun: <span id="sun-amount">50</span></div>
+        
+        <!-- Add lose screen -->
+        <div id="lose-screen" style="display: none;">
+            <div class="lose-content">
+                <h1>Game Over!</h1>
+                <p>The zombies ate your brains!</p>
+                <button id="restart-button">Play Again</button>
+            </div>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>

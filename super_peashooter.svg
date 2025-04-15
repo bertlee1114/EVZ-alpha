@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Improved Peashooter (Shop Unlockable) -->
+  <g>
+    <!-- Plant Body -->
+    <path d="M90 150 C70 150, 70 120, 90 120 L110 120 C130 120, 130 150, 110 150 Z" fill="#4CAF50" stroke="#1B5E20" stroke-width="2"/>
+    
+    <!-- Stem -->
+    <path d="M100 120 L100 100" stroke="#4CAF50" stroke-width="8" stroke-linecap="round"/>
+    
+    <!-- Head -->
+    <circle cx="100" cy="85" r="30" fill="#8BC34A" stroke="#1B5E20" stroke-width="3"/>
+    
+    <!-- Mouth/Shooter -->
+    <path d="M130 85 C140 85, 150 75, 150 85 C150 95, 140 95, 130 85 Z" fill="#1B5E20" stroke="#0A3010" stroke-width="2"/>
+    
+    <!-- Eyes -->
+    <circle cx="90" cy="75" r="8" fill="#FFFFFF" stroke="#1B5E20" stroke-width="2"/>
+    <circle cx="90" cy="75" r="4" fill="#1B5E20"/>
+    <circle cx="110" cy="75" r="8" fill="#FFFFFF" stroke="#1B5E20" stroke-width="2"/>
+    <circle cx="110" cy="75" r="4" fill="#1B5E20"/>
+    
+    <!-- Leaves -->
+    <path d="M80 110 C60 100, 70 80, 90 90" fill="#4CAF50" stroke="#1B5E20" stroke-width="2"/>
+    <path d="M120 110 C140 100, 130 80, 110 90" fill="#4CAF50" stroke="#1B5E20" stroke-width="2"/>
+    
+    <!-- Purple Glow Effect (Improved Version) -->
+    <circle cx="100" cy="85" r="35" fill="none" stroke="#9C27B0" stroke-width="2" opacity="0.6" stroke-dasharray="5,3"/>
+    <circle cx="100" cy="85" r="40" fill="none" stroke="#9C27B0" stroke-width="1" opacity="0.4" stroke-dasharray="3,5"/>
+  </g>
+</svg>
